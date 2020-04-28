@@ -1,0 +1,262 @@
+
+
+
+/*tegi*/
+.tegi-top  {
+    position: absolute;
+    left: -50px;
+
+}
+
+.tegi-top>span {
+   
+    z-index:100;
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+}
+.tegi-top>span:nth-child(1)::after {
+    position: relative;
+    left: 400px;
+    top: -55px;
+    content: "<div>";
+    color: #ff4e2e;
+    font-size: 45px;
+    width: 20px !important;
+    transform: rotate(-20deg);
+   
+    animation-name: focus-in-contract;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+.tegi-top>span:nth-child(2)::after {
+    position: relative;
+    left: 420px;
+    top: 200px;
+    content: "</div>";
+    color: #ff4e2e;
+    font-size: 40px;
+    z-index: 50;
+   transform: rotate(20deg);
+
+   animation-name: focus-in-contract;
+   animation-duration: 1s;
+   animation-timing-function: ease;
+   animation-delay: 3s;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-fill-mode: none;
+}
+.tegi-top>span:nth-child(3)::after {
+    position: relative;
+    top: 200px;
+    left: -210px;
+    font-size: 40px;
+    transform: rotate(10deg);
+    content: "{ }";
+    color: #ff4e2e;
+    font-size: 50px;
+    z-index: 5;
+    animation-name: focus-in-contract;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 3.2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.tegi-top>span:nth-child(4)::after {
+    position: relative;
+    top:-200px;
+    left: -110px;
+    font-size: 40px;
+    transform: rotate(30deg);
+    content: "#";
+    color: #ff4e2e;
+    font-size: 50px;
+    z-index: 5;
+    animation-name: focus-in-contract;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-delay: 3.4s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+.tegi-top>span:nth-child(5)::after {
+    position: relative;
+    top: 150px;
+    left: 10px;
+    content: "</>";
+    color: #ff4e2e;
+    font-size: 40px;
+    z-index: 5;
+    transform: rotate(-20deg);
+    animation-name: focus-in-contract;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-delay: 3.6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+
+
+@keyframes focus-in-contract {
+    0%{
+      letter-spacing: 1em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100%{
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+
+  .tegi-bottom,  .tegi-bottom2  {
+    position: absolute;
+    left: -50px;
+  
+}
+.tegi-bottom2  {
+    position: absolute;
+    right: -200px;
+   
+   
+}
+
+.tegi-bottom>span, .tegi-bottom2>span {
+    color: white;
+    z-index:100;
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+}
+.tegi-bottom>span:nth-child(1)::after {
+    position: relative;
+    left:  50px;
+    top: 50px;
+    content: "<div>";
+   
+    font-size: 35px;
+    width: 20px !important;
+    transform: rotate(-20deg);
+   
+    animation-name: rotate-scale-down-diag-1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+.tegi-bottom>span:nth-child(2)::after {
+    position: relative;
+    left: 100px;
+    top: 330px;
+    content: "</div>";
+
+    font-size: 30px;
+    z-index: 50;
+   transform: rotate(20deg);
+
+   animation-name: rotate-scale-down-diag-1;
+   animation-duration: 2s;
+   animation-timing-function: ease;
+   animation-delay: 2.2s;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-fill-mode: none;
+}
+.tegi-bottom>span:nth-child(3)::after {
+    position: relative;
+    top: 250px;
+    left: 710px;
+    font-size: 40px;
+    transform: rotate(10deg);
+    content: "{ }";
+    
+    font-size: 50px;
+    z-index: 5;
+    animation-name: rotate-scale-down-diag-1;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-delay: 2.4s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.tegi-bottom2>span:nth-child(1)::after {
+    position: absolute;
+    top:-150px;
+    right: 10px;
+    font-size: 25px;
+    transform: rotate(30deg);
+    content: "#";
+    font-size: 50px;
+    z-index: 5;
+    animation-name: rotate-right;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 2.6s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+.tegi-bottom2>span:nth-child(2)::after {
+    position: absolute;
+    top: 150px;
+    right: 45px;
+    content: "</>";
+   
+    font-size: 40px;
+    z-index: 5;
+    animation-name: rotate-right;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-delay: 2.8s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+
+
+@keyframes rotate-right {
+    0%{
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      -webkit-transform-origin: right;
+      transform-origin: right;
+    }
+    100%{
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transform-origin: right;
+      transform-origin: right;
+    }
+  }
+
+  @keyframes rotate-scale-down-diag-1 {
+    0%{
+      -webkit-transform: scale(1) rotate3d(1,1,0,0deg);
+      transform: scale(1) rotate3d(1,1,0,0deg);
+    }
+    50%{
+      -webkit-transform: scale(.5) rotate3d(1,1,0,-180deg);
+      transform: scale(.5) rotate3d(1,1,0,-180deg);
+    }
+    100%{
+      -webkit-transform: scale(1) rotate3d(1,1,0,-360deg);
+      transform: scale(1) rotate3d(1,1,0,-360deg);
+    }
+  }
