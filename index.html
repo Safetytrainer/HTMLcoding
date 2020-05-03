@@ -2,10 +2,10 @@
 <html lang="ru">
 
 <head>
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <!-- <meta name="viewport" content="width=460px, initial-scale=1">-->
@@ -14,7 +14,7 @@
   <title>Savelyev Vyacheslav</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/styles2.css">
-  <link rel="stylesheet" type="text/css" href="css/styles-animation.css">
+  <link rel="stylesheet" type="text/css" href="css/styles-animation2.css">
   <link rel="stylesheet" type="text/css" href="css/stylesM.css">
   <script src="js/jquery-3.4.1.min.js"></script>
 
@@ -29,17 +29,18 @@
       <div class="header">
         <div class="fix-container">
           <div class="locate-row">
-            <div class="locate-row__hed1">
-              <div class="nav2"><a href="#">Услуги</a></div>
-              <div class="nav2"><a href="#">Портфолио</a></div>
-              <div class="nav2"><a href="#">Стоимость</a></div>
-
-            </div>
+            <nav class="locate-row__hed1">
+             <li class="nav2"><a href="#">Услуги</a></li>
+             <li class="nav2"><a href="#">Портфолио</a></li>
+             <li class="nav2"><a href="#">Стоимость</a></li>
+            </nav>
             <div class="locate-row__hed2">
+             <button class="disabled">
               <a href="#">
                 <div class="gamburger"></div>
               </a>
-              <div class="mobile">+7 978 201 89 61</div>
+            </button>
+              <div class="mobile"><a href="#"> +7 (978) 201 89 61</a></div>
               <a href="#">
                 <div class="trubacol"></div>
               </a>
@@ -47,7 +48,6 @@
                 <div class="button-hed">Заказать звонок</div>
                 <div class="outline-hed">Заказать звонок</div>
               </button>
-
             </div>
           </div>
         </div>
@@ -57,11 +57,11 @@
     <main>
 
       <article>
-       
-          <div class="locate-foto" >
-
-            <div class="divfix"></div>
-            <div class="f1">
+      
+          <div class="locate-foto">
+           
+            <div class="locate-foto__divfix"></div>
+            <div class="locate-foto__f1">
               <div>Вячеслав Савельев</div>
               <div>Frontend-разработчик и веб- верстальщик
               </div>
@@ -79,7 +79,7 @@
 
               </div>
             </div>
-            <div class="f2andf3">
+            <div class="locate-foto__f2andf3">
 
               <!--Теги-->
 
@@ -94,21 +94,22 @@
                     <stop offset="100%" style="stop-color:rgb(233, 116, 91);stop-opacity:1;" />
                   </linearGradient>
                   <path d="
-                                        M 25 32 Q 0 60 9 80,
-                                        50 80  100 80 ,
-                                        100 80  100 23,
-                                        70 -13  25 32,
+                                        M 22 35 Q -4 67 9 80,
+                                        1 80  100 80 ,
+                                        100 80 100 23,
+                                        67 -18  25.3 31,
                                         " stroke="none" fill="url(#gradient)" />
                 </svg>
               </div>
             </div>
+            
           </div>
-
+        
           </article>
 
            <article>
 
-        <div class="fix-container ">
+        <div class="fix-container">
           
             <div class="locate">
               <div class="locate__h1whatIdo">
@@ -185,11 +186,11 @@
                   <div>Сайт психолога Веры Антоновой</div>
                 </div>
                 <div class="exampPhoto">
-                  <div class="SetexaFoto2"></div>
+                  <div class="SetexaFoto3"></div>
                   <div>Сайт магазина детской одежды</div>
                 </div>
                 <div class="exampPhoto">
-                  <div class="SetexaFoto3"></div>
+                  <div class="SetexaFoto2"></div>
                   <div>Сайт магазина «Рыболов»</div>
                 </div>
 
@@ -227,7 +228,7 @@
           </div>
           <div class="locate-ad">
             <div>
-              Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.*
+              Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за 4 часа.*
             </div>
             <div>
               * Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач.
@@ -257,7 +258,7 @@
             <div class="locate-row__footer-centr">
               <div>
                 <div class="mobile-n">
-                  <i class="fa fa-phone" style="font-size:25px"></i>&nbsp;&nbsp;+7 978 201 89 61
+                  <i class="fa fa-phone" style="font-size:25px"></i>&nbsp;&nbsp;&nbsp;&nbsp;+7 978 201 89 61
                 </div>
               </div>
 
@@ -308,3 +309,4 @@
 
 
 <script src="js/script2.js"></script>
+
