@@ -1,0 +1,28 @@
+<!-- Creator: CorelDRAW 2019 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve"  width="216mm" height="173mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 16500"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="17510.36" y1="16313.98" x2="16261.87" y2="-7.94">
+   <stop offset="0" style="stop-opacity:1; stop-color:#E9745B"/>
+   <stop offset="0.65098" style="stop-opacity:1; stop-color:#F45278"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FF2F96"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1025916344">
+   <lineargradient spread-method="pad" id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color: rgb(255, 47, 150);stop-opacity:1;"/>
+    <stop offset="100%" style="stop-color:rgb(233, 116, 91);stop-opacity:1;"/>
+   </lineargradient>
+   <path class="fil0" d="M4022.68 6731.39c-3729.15,4769.74 -4813.17,8021.9 -3252.15,9756.31 -867.21,0 5853.85,0 20163.17,0 0,0 0,-4119.36 0,-12358.01 -4769.83,-5637.03 -10168.32,-5058.84 -16195.57,1734.41m-715.45 867.29l0 0 0 0z"/>
+  </g>
+ </g>
+</svg>

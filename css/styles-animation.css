@@ -1,262 +1,256 @@
+/*tags*/
 
-
-
-/*tegi*/
-.tegi-top  {
-    position: absolute;
-    left: -50px;
-
+.tags-top {
+	position: absolute;
+	left: 0px;
+	top: 150px;
+	min-width: 20px;
+	min-height: 20px;
+	display: flex;
 }
 
-.tegi-top>span {
-   
-    z-index:100;
-    min-width: 20px;
-    min-height: 20px;
-    display: flex;
-}
-.tegi-top>span:nth-child(1)::after {
-    position: relative;
-    left: 400px;
-    top: -55px;
-    content: "<div>";
-    color: #ff4e2e;
-    font-size: 45px;
-    width: 20px !important;
-    transform: rotate(-20deg);
-   
-    animation-name: focus-in-contract;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 2s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-}
-.tegi-top>span:nth-child(2)::after {
-    position: relative;
-    left: 420px;
-    top: 200px;
-    content: "</div>";
-    color: #ff4e2e;
-    font-size: 40px;
-    z-index: 50;
-   transform: rotate(20deg);
-
-   animation-name: focus-in-contract;
-   animation-duration: 2s;
-   animation-timing-function: ease;
-   animation-delay: 3s;
-   animation-iteration-count: 1;
-   animation-direction: normal;
-   animation-fill-mode: none;
-}
-.tegi-top>span:nth-child(3)::after {
-    position: relative;
-    top: 200px;
-    left: -210px;
-    font-size: 40px;
-    transform: rotate(10deg);
-    content: "{ }";
-    color: #ff4e2e;
-    font-size: 50px;
-    z-index: 5;
-    animation-name: focus-in-contract;
-    animation-duration: 1.5s;
-    animation-timing-function: ease;
-    animation-delay: 5s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
+.tags-top__openDiv::after {
+	position: relative;
+	left: 414px;
+	top: -65px;
+	content: "<div>";
+	color: #ff4e2e;
+	font-size: 1.9rem;
+	font-weight: 600;
+	width: 20px !important;
+	transform: rotate(-14deg);
+	animation-name: focus-in-contract;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
 }
 
-.tegi-top>span:nth-child(4)::after {
-    position: relative;
-    top:-200px;
-    left: -110px;
-    font-size: 40px;
-    transform: rotate(30deg);
-    content: "#";
-    color: #ff4e2e;
-    font-size: 50px;
-    z-index: 5;
-    animation-name: focus-in-contract;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-delay: 6s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-}
-.tegi-top>span:nth-child(5)::after {
-    position: relative;
-    top: 150px;
-    left: 10px;
-    content: "</>";
-    color: #ff4e2e;
-    font-size: 40px;
-    z-index: 5;
-    transform: rotate(-20deg);
-    animation-name: focus-in-contract;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 6s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
+.tags-top__closeDiv::after {
+	position: relative;
+	left: 565px;
+	top: 302px;
+	content: "</div>";
+	color: #ff4e2e;
+	font-size: 2.3rem;
+	font-weight: 800;
+	transform: rotate(20deg);
+	animation-name: focus-in-contract;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 3s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
 }
 
+.tags-top__curBrackets::after {
+	position: relative;
+	top: -105px;
+	left: -245px;
+	font-size: 3.1rem;
+	transform: rotate(27deg);
+	content: "{ }";
+	color: #ff4e2e;
+	animation-name: focus-in-contract;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 5s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
 
+.tags-top__hash::after {
+	position: relative;
+	top: 125px;
+	left: -127px;
+	font-size: 3.5rem;
+	transform: rotate(15deg);
+	content: "#";
+	color: #ff4e2e;
+	animation-name: focus-in-contract;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 6s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+
+.tags-top__angBrackets::after {
+	position: relative;
+	top: 433px;
+	left: 2px;
+	content: "</>";
+	color: #ff4e2e;
+	font-size: 2.5rem;
+	font-weight: 700;
+	transform: rotate(-23deg);
+	animation-name: focus-in-contract;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-delay: 6s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+
+.tags-top__angBrackets-two::after {
+	display: none;
+	position: relative;
+	top: -0px;
+	left: 385px;
+	content: "</>";
+	color: #ff4e2e;
+	font-size: 2.7rem;
+	font-weight: 700;
+	transform: rotate(17deg);
+	animation-name: focus-in-contract;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-delay: 6s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
 
 @keyframes focus-in-contract {
-    0%{
-      letter-spacing: 1em;
-      filter: blur(12px);
-      opacity: 0;
-    }
-    100%{
-      filter: blur(0);
-      opacity: 1;
-    }
-  }
-
-
-  .tegi-bottom,  .tegi-bottom2  {
-    position: absolute;
-    left: -50px;
-  
-}
-.tegi-bottom2  {
-    position: absolute;
-    right: -200px;
-   
-   
+	0% {
+		letter-spacing: 1em;
+		filter: blur(12px);
+		opacity: 0;
+	}
+	100% {
+		filter: blur(0);
+		opacity: 1;
+	}
 }
 
-.tegi-bottom>span, .tegi-bottom2>span {
-    color: white;
-    z-index:100;
-    min-width: 20px;
-    min-height: 20px;
-    display: flex;
-}
-.tegi-bottom>span:nth-child(1)::after {
-    position: relative;
-    left:  50px;
-    top: 50px;
-    content: "<div>";
-   
-    font-size: 35px;
-    width: 20px !important;
-    transform: rotate(-20deg);
-   
-    animation-name: rotate-scale-down-diag-1;
-  animation-duration: 5s;
-  animation-timing-function: ease;
-  animation-delay: 5s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-.tegi-bottom>span:nth-child(2)::after {
-    position: relative;
-    left: 100px;
-    top: 330px;
-    content: "</div>";
-
-    font-size: 30px;
-    z-index: 50;
-   transform: rotate(20deg);
-
-   animation-name: rotate-scale-down-diag-1;
-   animation-duration: 5s;
-   animation-timing-function: ease;
-   animation-delay: 3s;
-   animation-iteration-count: 1;
-   animation-direction: normal;
-   animation-fill-mode: none;
-}
-.tegi-bottom>span:nth-child(3)::after {
-    position: relative;
-    top: 250px;
-    left: 710px;
-    font-size: 40px;
-    transform: rotate(10deg);
-    content: "{ }";
-    
-    font-size: 50px;
-    z-index: 5;
-    animation-name: rotate-scale-down-diag-1;
-  animation-duration: 4s;
-  animation-timing-function: ease;
-  animation-delay: 4s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
+.tags-bottom {
+	position: absolute;
+	left: 0px;
+	top: 150px;
+	min-width: 20px;
+	min-height: 20px;
+	display: flex;
 }
 
-.tegi-bottom2>span:nth-child(1)::after {
-    position: absolute;
-    top:-150px;
-    right: 10px;
-    font-size: 25px;
-    transform: rotate(30deg);
-    content: "#";
-    font-size: 50px;
-    z-index: 5;
-    animation-name: rotate-right;
-  animation-duration: 3s;
-  animation-timing-function: ease;
-  animation-delay: 2.6s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
-}
-.tegi-bottom2>span:nth-child(2)::after {
-    position: absolute;
-    top: 150px;
-    right: 45px;
-    content: "</>";
-   
-    font-size: 40px;
-    z-index: 5;
-    animation-name: rotate-right;
-    animation-duration: 3s;
-    animation-timing-function: ease;
-    animation-delay: 1s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
+.tags-bottom__openDiv::after {
+	position: relative;
+	left: 1430px;
+	top: 150px;
+	content: "<div>";
+	color: #ffffff;
+	font-size: 2.5rem;
+	font-weight: 600;
+	transform: rotate(19deg);
+	animation-name: focus-in-contract;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
 }
 
+.tags-bottom__curBrackets-left::after {
+	position: relative;
+	top: -85px;
+	left: 130px;
+	font-size: 3rem;
+	transform: rotate(30deg);
+	content: "{ }";
+	color: #ffffff;
+	animation-name: focus-in-contract;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 5s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
 
+.tags-bottom__curBrackets-right::after {
+	position: relative;
+	top: 105px;
+	left: 1765px;
+	font-size: 3rem;
+	transform: rotate(-20deg);
+	content: "{ }";
+	color: #ffffff;
+	animation-name: focus-in-contract;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 5s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+
+.tags-bottom__angBrackets::after {
+	position: relative;
+	top: -80px;
+	left: 1658px;
+	content: "</>";
+	color: #f5f5f5;
+	font-size: 2.5rem;
+	font-weight: 700;
+	transform: rotate(-23deg);
+	animation-name: focus-in-contract;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-delay: 6s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+
+.tags-bottom__hash::after {
+	position: relative;
+	top: 95px;
+	left: 245px;
+	font-size: 3.5rem;
+	transform: rotate(15deg);
+	content: "#";
+	color: #ffffff;
+	animation-name: focus-in-contract;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 6s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
 
 @keyframes rotate-right {
-    0%{
-      -webkit-transform: rotate(0);
-      transform: rotate(0);
-      -webkit-transform-origin: right;
-      transform-origin: right;
-    }
-    100%{
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-      -webkit-transform-origin: right;
-      transform-origin: right;
-    }
-  }
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+		-webkit-transform-origin: right;
+		transform-origin: right;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin: right;
+		transform-origin: right;
+	}
+}
 
-  @keyframes rotate-scale-down-diag-1 {
-    0%{
-      -webkit-transform: scale(1) rotate3d(1,1,0,0deg);
-      transform: scale(1) rotate3d(1,1,0,0deg);
-    }
-    50%{
-      -webkit-transform: scale(.5) rotate3d(1,1,0,-180deg);
-      transform: scale(.5) rotate3d(1,1,0,-180deg);
-    }
-    100%{
-      -webkit-transform: scale(1) rotate3d(1,1,0,-360deg);
-      transform: scale(1) rotate3d(1,1,0,-360deg);
-    }
-  }
+@keyframes rotate-scale-down-diag-1 {
+	0% {
+		-webkit-transform: scale(1) rotate3d(1, 1, 0, 0deg);
+		transform: scale(1) rotate3d(1, 1, 0, 0deg);
+	}
+	50% {
+		-webkit-transform: scale(.5) rotate3d(1, 1, 0, -180deg);
+		transform: scale(.5) rotate3d(1, 1, 0, -180deg);
+	}
+	100% {
+		-webkit-transform: scale(1) rotate3d(1, 1, 0, -360deg);
+		transform: scale(1) rotate3d(1, 1, 0, -360deg);
+	}
+}
