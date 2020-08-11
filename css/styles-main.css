@@ -177,8 +177,18 @@ main {
 	display: flex;
 	position: relative;
 	min-height: 365px;
-	/* min-width: 1920px; */
+	min-width: 1920px;
 	background: linear-gradient(to right top, rgb(233, 116, 91), rgb(255, 47, 150));
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.gradient-background__fix {
+	display: flex;
+	position: relative;
+	min-height: 365px;
+	min-width: 1920px;
+	/* background: linear-gradient(to right top, rgb(233, 116, 91), rgb(255, 47, 150)); */
 	justify-content: center;
 	align-content: center;
 	align-items: center;
