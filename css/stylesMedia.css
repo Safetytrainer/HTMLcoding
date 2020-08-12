@@ -7,11 +7,13 @@
 @media (max-width: 1024px) {
 	.fon-purple,
 	.gradient-background,
-	.fix-container {
+	.fix-container,
+	.gradient-background__fix {
 		max-width: 1024px !important;
 		height: auto;
 	}
-	.gradient-background {
+	.gradient-background,
+	.gradient-background__fix {
 		min-width: 100vw;
 		padding: 0 40px;
 	}
@@ -555,7 +557,8 @@
 		min-height: 0px;
 		max-height: 705px;
 	}
-	.gradient-background {
+	.gradient-background,
+	.gradient-background__fix {
 		padding: 20px;
 	}
 	.my-price__price {
