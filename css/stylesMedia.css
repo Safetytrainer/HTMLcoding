@@ -335,8 +335,7 @@
 	}
 	.mobile-phone__tube-circle {
 		display: block;
-		/* zoom: 1.3; */
-		transform: scale(1.3);
+		transform: scale(0.9);
 		position: relative;
 		right: 5px;
 	}
@@ -464,7 +463,6 @@
 		min-width: 80vw;
 	}
 	.mobile-phone__tube-circle {
-		/* zoom: 1; */
 		transform: scale(0.78);
 		right: -12px;
 		margin-top: -5px;

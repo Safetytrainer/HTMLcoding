@@ -4,50 +4,6 @@
 @import "../css/styles-animation.css";
 @import "../css/stylesMedia.css";
 
-/*Добавление макета*/
-
-.fix-container div2,
-.fix-container svg2 {
-	border: black solid 1px;
-}
-
-.test1 {
-	position: relative;
-	top: 0px;
-	background-image: url('../img/t2.png');
-	width: 1170px;
-	/* left: 3px; */
-	/* background-image: url('../img/dp.gif'); */
-	height: 2980px;
-	/* background-image: url('../img/1024.png'); */
-	/* background-image: url('../img/320px.png'); */
-	/* width: 320px; */
-	/* height: 3430px; */
-	background-repeat: no-repeat;
-	z-index: 100;
-	opacity: 0.5;
-	color: #fbfbfb;
-	filter: invert(100%);
-	left: 50%;
-	transform: translate(-50%);
-	/* zoom: 3; */
-}
-
-.fix-fon {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0px;
-	/* width: 1175px; */
-	height: 2985px;
-	padding: 0;
-	margin: 0 auto;
-	z-index: 10;
-	float: inline-start;
-}
-
-
-/*Общие настройки*/
 
 html,
 body {

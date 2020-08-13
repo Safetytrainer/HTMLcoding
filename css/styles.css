@@ -521,8 +521,6 @@ button {
 }
 
 
-/* css menu/ */
-
 #menu__toggle {
 	opacity: 0;
 }
@@ -572,7 +570,7 @@ button {
 
 .menu__btn>span::before {
 	content: '';
-	top: -13px;
+	top: -15px;
 }
 
 .menu__btn>span::after {
@@ -587,7 +585,7 @@ button {
 	top: 0;
 	left: -100%;
 	min-width: 320px !important;
-	height: 70vh;
+	height: 90%;
 	margin: 0;
 	padding: 150px 0px 80px 20px;
 	list-style: none;
@@ -615,8 +613,6 @@ button {
 }
 
 
-/* /css menu */
-
 .my-price__price {
 	display: block;
 	font-size: 2.81rem;
@@ -641,10 +637,7 @@ button {
 	display: none;
 	position: relative;
 	right: -12px;
-	height: 9mm;
-	width: 9mm;
-	/* border: #fa0c8c solid 2px; */
-	/* transform: scale(1); */
-	/* background: url('../img/tube-circle.png'); */
+	height: 11mm;
+	width: 10mm;
 	background: url('../img/tube-circle.svg');
 }
