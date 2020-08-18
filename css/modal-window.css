@@ -48,7 +48,7 @@
 	border-top: rgb(255, 47, 150) inset 10px;
 	border-right: rgb(255, 47, 150) inset 10px;
 	z-index: 100;
-	zoom: 1;
+	zoom: 0.8;
 }
 
 .window-container-visible {
@@ -58,7 +58,7 @@
 }
 
 .modal-header {
-	padding: 30px;
+	padding-top: 20px;
 }
 
 .modal-header__name {
@@ -66,7 +66,7 @@
 	text-align: center;
 	display: block;
 	font-weight: 600px;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	min-width: max-content;
 }
 
@@ -109,7 +109,7 @@
 	position: relative;
 	top: -12px;
 	color: gray;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	padding: 0 5px 0 5px;
 }
 
@@ -141,5 +141,18 @@
 }
 
 .callback-form {
-	max-width: 390px;
+	max-width: 300px;
+}
+
+.close {
+	position: absolute;
+	right:5px;
+	top:5px;
+	height: 30px;
+	width: 30px;
+}
+
+.close:hover {
+transform: rotate(180deg);
+transition: transform 1s;
 }

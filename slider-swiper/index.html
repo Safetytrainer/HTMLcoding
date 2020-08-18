@@ -162,29 +162,27 @@
       <div class="overlay-container">
         <div class="background-modal"></div>
         <div class="window-container">
-          <img class="close" src="img/close.png" alt="">
           <h3 class="modal-header">
           <span class="modal-header__name">Форма обратной связи</span> 
           <span class="modal-header__description">Заполните, пожалуйста все поля для отправки!</span>
           </h3>
-
           <form class="callback-form"  id="ajaxform">
             <input type="hidden" name="project_name" value="Sait_Saveliev">
             <input type="hidden" name="admin_email" value="">
             <input type="hidden" name="form_subject" value="Request_page_No">
             <div class="callback-form__align-vertical">
               <label for="name"><span class="callback-form__label">Имя, пример Иван Иванов</span>
-                <input class="callback-form__input" required type="text" id="name" size="32" maxlength="36" name="name" placeholder="">
+                <input class="callback-form__input" required type="text" id="name" size="32" maxlength="36" name="name" placeholder="________">
               </label>
             </div>
             <div class="callback-form__align-vertical">
               <label for="email"><span class="callback-form__label">Почта, пример email@mail.ru</span>
-                <input class="callback-form__input"  required type="email" id="email" size="32" maxlength="36" name="email" placeholder="">
+                <input class="callback-form__input" required type="email" id="email" size="32" maxlength="36" name="email" placeholder="________">
               </label>
             </div>
             <div class="callback-form__align-vertical">
               <label for="phone"><span class="callback-form__label">Телефон пример:&nbsp;+7&nbsp;999&nbsp;999&nbsp;99&nbsp;99</span>
-                <input class="callback-form__input" required type="tel" id="phone" name="phone" placeholder="">
+                <input class="callback-form__input" required type="tel" id="phone" name="phone" placeholder="+7________">
               </label>
             </div>
             <button type="submit" class="button-send button-orange"><span>Отправить</span></button>
