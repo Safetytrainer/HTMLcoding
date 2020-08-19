@@ -25,6 +25,12 @@ $("#phone").mask("+7 (999) 999-99-99");
 });
 
 
+$('.menu__item').on('click', 
+function() {
+            document.querySelector('.menu__btn span').click();
+});
+
+
 });
 
 

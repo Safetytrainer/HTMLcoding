@@ -176,6 +176,14 @@
 	.nav {
 		margin: 0;
 	}
+	.card {
+		height: 350px;
+		mar: 0 100px;
+	}
+	.swiper-container {
+		padding: 0px 0px;
+		height: 450px;
+	}
 	.header {
 		position: relative;
 		max-height: 85px !important;
@@ -233,6 +241,7 @@
 		padding: 18px 70px;
 		margin-bottom: 150px;
 		zoom: 0.9;
+		z-index: 1;
 	}
 	.icon-child:nth-child(1),
 	.icon-child:nth-child(2) {
@@ -274,16 +283,22 @@
 		height: auto;
 	}
 	.social .button-white {
+		position: relative;
+		font-size: 1.11rem;
+		cursor: pointer;
 		min-width: max-content;
 		background-color: #ff4e2e;
+		border: #ff4e2e solid 3px;
 		color: white;
 		transition: background-color 1s, color 1s, border 1s;
 	}
 	.social .button-white:hover {
-		background: #4858e7;
-		color: rgb(255, 255, 255);
-		border: solid 1px rgb(106, 76, 155);
-		transition: background-color 1s, color 1s, border 1s;
+		background: #f82370;
+	color: rgb(255, 255, 255);
+	border: solid 1px rgb(106, 76, 155);
+	box-sizing: border-box;
+	border: #920000 solid 3px;
+	transition: background-color 1s, color 1s, border 1s;
 	}
 	.footer-nav {
 		min-height: auto;
@@ -310,6 +325,9 @@
 		min-height: unset;
 		width: 100%;
 	}
+	.mobile-phone__call-request {
+		font-size: 1.3rem;
+	}
 }
 
 @media (max-width: 600px) {
@@ -322,6 +340,13 @@
 	}
 	.header {
 		margin: 0;
+	}
+	.card {
+		height: 400px;
+	}
+	.swiper-container {
+		padding: 0px 0px;
+		height: 500px;
 	}
 	.mobile-phone {
 		margin-top: 0px;
@@ -432,7 +457,7 @@
 	}
 	.skills__header {
 		font-size: 9.4vw;
-		margin-top: 7.2px;
+		margin-top: 100px;
 		margin-left: 23px;
 		font-weight: 750;
 	}
@@ -451,6 +476,22 @@
 	.nav .nav__gamburger {
 		zoom: .6;
 		margin-top: 25px;
+	}
+	.footer-nav-locate {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: -20px;
+	}
+
+	.mobile-switch {
+		position: relative;
+		flex-direction: column;
+		justify-content: unset;
+		align-items: baseline;
+		margin-left: -20px;
+		max-width: 250px;
 	}
 }
 
