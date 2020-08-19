@@ -50,12 +50,18 @@ a {
 	transition: 0.3s;
 }
 
-a:not(.spray-main):hover {
+a.nav__link:hover, a.nav-fooret__link:hover
+{
 	border-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: rgb(138, 0, 0);
+	border-bottom-color: rgb(58, 32, 32);
 	transition: 0.3s;
 }
+a.link-align:hover, a.menu__item:hover
+{
+	color: red;
+}
+
 
 a,
 li,

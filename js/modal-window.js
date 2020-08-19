@@ -24,13 +24,21 @@ $(document).ready(function(){
 $("#phone").mask("+7 (999) 999-99-99");
 });
 
-
+/// клик в другом месте
 $('.menu__item').on('click', 
 function() {
             document.querySelector('.menu__btn span').click();
+            $('html, body').removeClass('scroll-button-none');
 });
-
+// фиксация при выпадающем меню
+    $("body").on("click", ".menu__btn>span", function() {
+        if ($(this).parents('.scroll-button-none').css('overflow') == 'hidden') 
+        {
+            $('html, body').removeClass('scroll-button-none');
+        } else {
+            $('html, body').addClass('scroll-button-none');
+        }
+  });
 
 });
-
 

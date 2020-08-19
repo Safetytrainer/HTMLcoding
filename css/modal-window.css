@@ -14,12 +14,11 @@
 	top: -100px;
 	content: " ";
 	width: 100vw;
-	height: 100vw;
+	height: 200vw;
 	opacity: .63;
 	background-color: rgb(90, 90, 90);
 	z-index: 100;
 	transition: background-color 0s, z-index 0s, opacity 0s, display 0s;
-	
 }
 
 .button:active {
